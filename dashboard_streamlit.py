@@ -1,7 +1,4 @@
-# TO RUN: $streamlit run dashboard/dashboard.py
-# Local URL: http://localhost:8501
-# Network URL: http://192.168.0.50:8501
-# Online URL: http://15.188.179.79
+# TO RUN: $streamlit run dashboard-streamlit.py
 
 import streamlit as st
 from PIL import Image
@@ -23,6 +20,7 @@ from dashboard_functions import plot_scatter_projection
 def main():
     # local API (à remplacer par l'adresse de l'application déployée)
     # API_URL = "http://127.0.0.1:5000/api/"
+    # URL of the deployed api flask
     API_URL = "https://oc-api-flask-mm.herokuapp.com/api/"
 
     ##################################
