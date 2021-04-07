@@ -13,4 +13,7 @@ Il affiche de nombreuses données et graphes relatifs à un client choisi :
 - Données numérique du client (avant et après traitement)
 - Graphe situant les paramètres du client par rapport aux autres clients et autres clients similaires (boxplot, scatterplots)
 - Importance globale et locale des paramètres dans la décision du modèle
-. Les données du client et les résultats  Cette API est interrogée par un dashboard développé grâce à Streamlit. Pour interagir avec l'api (tester les requêtes) :
+. Les données du client et les résultats  Cette API est interrogée par un dashboard développé grâce à Streamlit.
+
+Vidéo de démonstration du dashboard en ligne :
+https://youtu.be/u9gxr55TN7U
